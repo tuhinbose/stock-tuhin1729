@@ -30,7 +30,7 @@ st.write("""
 
 # detailed summary on Google
 st.write(company1.info['longBusinessSummary'])
-st.write(irctc)
+st.write("irctc")
 
 # plots the graph
 st.line_chart(data1.values)
@@ -38,5 +38,5 @@ st.line_chart(data1.values)
 st.write("""
 ### Microsoft
 """)
-st.write(company2.info['longBusinessSummary'], "\n", infosys)
+st.write(company2.info['longBusinessSummary'], "\n", "infosys")
 st.line_chart(data2.values)
